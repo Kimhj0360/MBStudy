@@ -52,7 +52,7 @@ function run(callback) {
       const start = Date.now();
       one();
       const end = Date.now();
-      console.log("반복문을 모두 여는데 " + (end - start) + "ms 걸렸습니다.");
+      console.log(`반복문을 모두 여는데 ${end - start}ms 걸렸습니다.`);
       callback();
     }, 1000);
   }
